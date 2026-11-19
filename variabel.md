@@ -151,4 +151,48 @@ Tombol **dan** garis kotak langsung berubah jadi merah. Tanpa variabel, kamu har
 }
 ```
 
-Mau coba latihan langsung, misalnya bikin tombol dengan beberapa varian warna pakai variabel?
+
+# Ini Latihan Langsung gw Btw
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Aku Tydak Suka Femboy</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti qui eius vel nesciunt voluptatibus deserunt nostrum ad ratione doloribus? Est expedita ratione ullam voluptate voluptatum tempora, corporis explicabo qui laborum.</p>
+
+    <div class="box">
+        <h1>Halo Kamu suki Liar</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et distinctio dolores labore iusto aliquid neque?</p>
+        <button>Kamu Gila</button>
+    </div>
+</body>
+</html>
+<style>
+
+:root {
+    --btnBackgroundColor: #0044ff;
+    --backgroundColor: #9dff00;
+    --color: #141414;
+    --jarak: 20px;
+}
+.box {
+    background-color: var(--backgroundColor);
+    color: var(--color);
+    padding: var(--jarak);
+    border-radius: 10px;
+}
+.box button {
+    background-color: var(--btnBackgroundColor);
+    color: white;
+    border: none;
+    padding: var(--jarak);
+    border-radius: 20px;
+}
+</style>
+```
